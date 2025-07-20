@@ -27,8 +27,18 @@ html {
   font-size: 1.2rem;
 }
 
-#source {
+.source {
+  display: flex;
+  justify-content: space-between;
+}
+
+.item1 {
+  order: 1;
   opacity: 50%;
+}
+
+.item2 {
+  order: 2;
 }
 
 /*---------------------------------*/
@@ -78,7 +88,6 @@ html {
 /*---------------------------------*/
 /*--------------HOVER--------------*/
 /*---------------------------------*/
-
 
 .top-bar:hover {
   transition: 1s;
